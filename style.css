@@ -6,7 +6,7 @@ html, body {
     background-color: #EEEEEE;  
     
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    font: monospace;
 }
 
 
@@ -19,8 +19,17 @@ main {
 
 article {
     text-align: justify;
+    
 }
 
+.paragraaf1 {
+    float: left;
+    width: 400px;
+}
+
+.paragraaf2 {
+    clear: both;
+}
 
 header {
     color: skyblue;
@@ -38,7 +47,9 @@ footer {
 
 img.zweefLinks {
     float: left;
-    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
 }
 
 .smalltext {
@@ -81,7 +92,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: grey;
 }
 
 
