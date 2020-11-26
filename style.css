@@ -55,9 +55,24 @@ img.zweefLinks {
     height: 200px;
     margin: 10px;
 }
+.imgshow {
+    width: 225px;
+    height: 200px; 
+    margin: 10px;
+    float: left;
+}
+
+.aboutshow{
+    width: 500px;
+    float:right;
+}
 
 .smalltext {
     font-size: 0.7em;
+}
+
+.both {
+    clear: both;
 }
 
 a {
