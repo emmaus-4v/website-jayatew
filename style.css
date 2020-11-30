@@ -56,15 +56,14 @@ img.zweefLinks {
     margin: 10px;
 }
 .imgshow {
-    width: 225px;
+    width: 250px;
     height: 200px; 
     margin: 10px;
     float: left;
 }
 
 .aboutshow{
-    width: 500px;
-    float:right;
+    margin-top: 10px;
 }
 
 .smalltext {
