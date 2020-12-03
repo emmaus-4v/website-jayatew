@@ -35,6 +35,31 @@ p{
     clear: both;
 }
 
+.characters{
+   float: top;
+}
+
+
+.zweeflinks{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.rachelG{
+    clear: both;
+}
+
+.monicaG{
+    background-color: rgb(177, 49, 49);
+    margin: 2px;
+}
+
+.rachelG{
+    background-color: rgb(107, 144, 212);
+}
+
 header {
     color: skyblue;
     text-align: center;
@@ -44,6 +69,7 @@ header {
 footer {
     text-align: center;
     padding-bottom: 10px;
+    clear: both;
 }
 
 
@@ -60,6 +86,12 @@ img.zweefLinks {
     height: 200px; 
     margin: 10px;
     float: left;
+}
+
+img.zweefrechts{
+    float: right;
+    width: 200px;
+    height: 300px;
 }
 
 .aboutshow{
