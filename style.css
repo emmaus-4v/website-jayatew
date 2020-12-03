@@ -15,6 +15,9 @@ main {
     position: relative;
 }
 
+.active{
+    background-color: rgb(60, 73, 187);
+}
 
 article {
     font-family: monospace;
@@ -52,16 +55,22 @@ p{
 }
 
 .monicaG{
-    background-color: rgb(177, 49, 49);
+    background-color: rgb(175, 68, 68);
     margin: 2px;
 }
 
 .rachelG{
-    background-color: rgb(107, 144, 212);
+    background-color: rgb(60, 73, 187);
+}
+
+.phoebeB{
+    background-color: rgb(230, 230, 80);
+    clear: both;
+    margin: 2px;
 }
 
 header {
-    color: skyblue;
+    color: rgb(11, 58, 2);
     text-align: center;
 }
 
@@ -92,6 +101,7 @@ img.zweefrechts{
     float: right;
     width: 200px;
     height: 300px;
+    margin: 10px;
 }
 
 .aboutshow{
@@ -107,7 +117,7 @@ img.zweefrechts{
 }
 
 a {
-    color: skyblue;
+    color: rgb(60, 73, 187);
     text-decoration: none;
 }
 
@@ -121,7 +131,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #000000;
     overflow: hidden;
 }
 
@@ -137,14 +147,10 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover {
-    background-color: #aaaaaa;
+
+
+nav li a:hover{
+    background-color: rgb(175, 68, 68);
 }
-
-nav li a.active {
-    background-color: grey;
-}
-
-
 
 
