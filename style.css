@@ -19,6 +19,12 @@ main {
     background-color: rgb(60, 73, 187);
 }
 
+
+
+.active2 a:hover{
+    background-color: rgb(60, 73, 187);
+}
+
 article {
     font-family: monospace;
     color: black;
@@ -50,10 +56,6 @@ p{
     margin: 10px;
 }
 
-.rachelG{
-    clear: both;
-}
-
 .monicaG{
     background-color: rgb(175, 68, 68);
     margin: 2px;
@@ -61,6 +63,7 @@ p{
 
 .rachelG{
     background-color: rgb(60, 73, 187);
+    clear: both;
 }
 
 .phoebeB{
@@ -70,7 +73,7 @@ p{
 }
 
 header {
-    color: rgb(11, 58, 2);
+    color: darkgreen;
     text-align: center;
 }
 
@@ -86,7 +89,6 @@ footer {
 
 img.zweefLinks {
     float: left;
-    width: 200px;
     height: 200px;
     margin: 10px;
 }
@@ -147,10 +149,30 @@ nav li a {
     text-decoration: none;
 }
 
-
-
 nav li a:hover{
+    background-color: darkgreen;
+}
+
+.active1{
     background-color: rgb(175, 68, 68);
 }
 
+.active1 a:hover{
+    background-color: rgb(175, 68, 68);
+}
 
+.active2{
+    background-color: rgb(60, 73, 187);
+}
+
+.active2 a:hover{
+    background-color: rgb(60, 73, 187);
+}
+
+.active3{
+    background-color: rgb(230, 230, 80);
+}
+
+.active4{
+    background-color: rgb(175, 68, 68);
+}
