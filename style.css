@@ -59,17 +59,43 @@ p{
 .monicaG{
     background-color: rgb(175, 68, 68);
     margin: 2px;
+    border: dotted 2px;
 }
 
 .rachelG{
     background-color: rgb(60, 73, 187);
     clear: both;
+    border: dotted 2px;
 }
 
 .phoebeB{
     background-color: rgb(230, 230, 80);
     clear: both;
     margin: 2px;
+    border: dotted 2px;
+}
+
+.joeyT{
+    background-color: rgb(175, 68, 68);
+    clear: both;
+    margin: 2px;
+    border: dotted 2px;
+   
+}
+
+.chandlerB{
+    background-color: rgb(60, 73, 187);
+    clear: both;
+    margin: 2px;
+    border: dotted 2px;
+}
+
+.rossG{
+    background-color: rgb(230, 230, 80);
+    clear: both;
+    margin: 2px;
+    border: dotted 2px;
+   
 }
 
 header {
@@ -96,7 +122,9 @@ img.zweefLinks {
     width: 250px;
     height: 200px; 
     margin: 10px;
+    margin-bottom: 2px;
     float: left;
+    border: dashed 2px;
 }
 
 img.zweefrechts{
@@ -175,4 +203,12 @@ nav li a:hover{
 
 .active4{
     background-color: rgb(175, 68, 68);
+}
+
+.active5{
+    background-color: rgb(230, 230, 80)
+}
+
+.active6{
+    background-color: rgb(60, 73, 187)
 }
