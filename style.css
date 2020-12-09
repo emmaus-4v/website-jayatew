@@ -6,13 +6,17 @@ html, body {
     background-color: #EEEEEE;  
     
     color: #303030;
-    font: monospace;
+    font: baskerville;
 }
 
 main {
     margin: 0 auto;
     width: 700px;
     position: relative;
+}
+
+h1 {
+    font-family: monospace;
 }
 
 .active{
@@ -26,7 +30,7 @@ main {
 }
 
 article {
-    font-family: monospace;
+    font-family: baskerville;
     color: black;
     
 }
@@ -120,7 +124,6 @@ img.zweefLinks {
 }
 .imgshow {
     width: 250px;
-    height: 200px; 
     margin: 10px;
     margin-bottom: 2px;
     float: left;
@@ -136,6 +139,10 @@ img.zweefrechts{
 
 .aboutshow{
     margin-top: 10px;
+}
+
+.aboutshow1{
+    font-size: 10px;
 }
 
 .smalltext {
