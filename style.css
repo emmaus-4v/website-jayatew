@@ -136,6 +136,12 @@ img.zweefrechts{
     margin: 10px;
 }
 
+.pivot{
+    float: right;
+    height: 200px;
+    margin: 10px;
+}
+
 .zweefRechts{
     height: 200px;
     float: right;
